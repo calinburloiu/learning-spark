@@ -1,6 +1,7 @@
 package org.calinburloiu.spark
 
 import com.typesafe.scalalogging.slf4j.StrictLogging
+import org.apache.spark.sql.SaveMode
 import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.SparkContext._
 
